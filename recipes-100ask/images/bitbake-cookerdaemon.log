@@ -1,0 +1,105 @@
+--- Starting bitbake server pid 115383 at 2020-01-05 10:14:31.144208 ---
+Started bitbake server pid 115383
+DEBUG: Found bblayers.conf (/home/book/100ask_imx6ull-sdk/Yocto_rocko/build-linux-fb/conf/bblayers.conf)
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta-poky
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-openembedded/meta-oe
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-openembedded/meta-multimedia
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-freescale
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-freescale-3rdparty
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-freescale-distro
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-fsl-bsp-release/imx/meta-bsp
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-fsl-bsp-release/imx/meta-sdk
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-browser
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-openembedded/meta-gnome
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-openembedded/meta-networking
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-openembedded/meta-python
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-openembedded/meta-filesystems
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-qt5
+DEBUG: Adding layer /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-100ask-fsl
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:740: including conf/abi_version.conf
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:741: including conf/site.conf
+DEBUG: CONF file 'conf/site.conf' not found
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:742: including conf/auto.conf
+DEBUG: CONF file 'conf/auto.conf' not found
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:743: including conf/local.conf
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:744: including conf/multiconfig/default.conf
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:745: including conf/machine/imx6ull_100ask.conf
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-100ask-fsl/conf/machine/imx6ull_100ask.conf:9: including conf/machine/include/100ask-base.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-100ask-fsl/conf/machine/include/100ask-base.inc:3: including conf/machine/include/fsl-default-settings.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-100ask-fsl/conf/machine/include/100ask-base.inc:4: including conf/machine/include/fsl-default-versions.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-100ask-fsl/conf/machine/imx6ull_100ask.conf:10: including conf/machine/include/tune-cortexa7.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/machine/include/tune-cortexa7.inc:3: including conf/machine/include/arm/arch-armv7ve.inc
+Entering server connection loop
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/machine/include/arm/arch-armv7ve.inc:8: including conf/machine/include/arm/arch-armv7a.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/machine/include/arm/arch-armv7a.inc:8: including conf/machine/include/arm/arch-armv6.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/machine/include/arm/arch-armv6.inc:8: including conf/machine/include/arm/arch-armv5-dsp.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/machine/include/arm/arch-armv5-dsp.inc:4: including conf/machine/include/arm/arch-armv5.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/machine/include/arm/arch-armv5.inc:8: including conf/machine/include/arm/arch-armv4.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/machine/include/arm/arch-armv4.inc:15: including conf/machine/include/arm/arch-arm.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/machine/include/arm/arch-armv4.inc:16: including conf/machine/include/arm/feature-arm-thumb.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/machine/include/arm/arch-armv5.inc:9: including conf/machine/include/arm/feature-arm-vfp.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/machine/include/arm/arch-armv7a.inc:9: including conf/machine/include/arm/feature-arm-neon.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:746: including conf/machine-sdk/x86_64.conf
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:747: including conf/distro/100ask-imx-fb.conf
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-100ask-fsl/conf/distro/100ask-imx-fb.conf:3: including conf/distro/include/100ask-imx-base.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-100ask-fsl/conf/distro/100ask-imx-fb.conf:4: including conf/distro/include/100ask-imx-preferred-env.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:748: including conf/distro/defaultsetup.conf
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/distro/defaultsetup.conf:1: including conf/distro/include/default-providers.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/distro/defaultsetup.conf:2: including conf/distro/include/default-versions.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/distro/defaultsetup.conf:3: including conf/distro/include/default-distrovars.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/distro/defaultsetup.conf:4: including conf/distro/include/world-broken.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/distro/defaultsetup.conf:7: including conf/distro/include/tcmode-default.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/distro/include/tcmode-default.inc:71: including conf/distro/include/as-needed.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/distro/defaultsetup.conf:10: including conf/distro/include/tclibc-glibc.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/distro/defaultsetup.conf:12: including conf/distro/include/uninative-flags.inc
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:749: including conf/documentation.conf
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:750: including conf/licenses.conf
+DEBUG: CONF /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/conf/bitbake.conf:751: including conf/sanity.conf
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/patch.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/base.bbclass:4)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/terminal.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/patch.bbclass:11)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/staging.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/base.bbclass:5)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/mirrors.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/base.bbclass:7)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/utils.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/base.bbclass:8)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/utility-tasks.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/base.bbclass:9)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/metadata_scm.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/base.bbclass:10)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/logging.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/base.bbclass:11)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-freescale/classes/machine-overrides-extender.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-freescale/classes/fsl-dynamic-packagearch.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta-poky/classes/poky-sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/package_rpm.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/package.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/package_rpm.bbclass:1)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/packagedata.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/package.bbclass:41)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/chrpath.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/package.bbclass:42)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/insane.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/package.bbclass:45)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/buildstats.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/image-mklibs.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/linuxloader.bbclass (from /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/image-mklibs.bbclass:5)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/image-prelink.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/debian.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/devshell.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/sstate.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/license.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/remove-libtool.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/blacklist.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/meta/classes/sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/book/100ask_imx6ull-sdk/Yocto_rocko/build-linux-fb/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/book/100ask_imx6ull-sdk/Yocto_rocko/build-linux-fb/cache/bb_codeparser.dat'
+Accepting [<socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>]
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'prefile': [], 'invalidate_stamp': None, 'debug': 1, 'abort': True, 'postfile': [], 'verbose': True, 'dry_run': False, 'dump_signatures': [], 'force': False, 'server_timeout': None, 'debug_domains': [], 'profile': False, 'extra_assume_provided': []}, {'LC_ALL': 'en_US.UTF-8', 'BBPATH': '/home/book/100ask_imx6ull-sdk/Yocto_rocko/build-linux-fb', 'HOME': '/home/book', 'MAIL': '/var/mail/book', 'OLDPWD': '/home/book/100ask_imx6ull-sdk/Yocto_rocko/sources', 'LOGNAME': 'book', 'LC_NAME': 'zh_CN.UTF-8', 'LC_ADDRESS': 'zh_CN.UTF-8', 'SHELL': '/bin/bash', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'BUILDDIR': '/home/book/100ask_imx6ull-sdk/Yocto_rocko/build-linux-fb', 'WINDOW': '0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_RUNTIME_DIR': '/run/user/1000', '_': '/home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/bitbake/bin/bitbake', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'CROSS_COMPILE': 'arm-linux-gnueabihf-', 'LANG': 'en_US.UTF-8', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'SSH_CONNECTION': '192.168.1.4 6632 192.168.1.134 22', 'PWD': '/home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/meta-100ask-fsl/recipes-100ask/images', 'LC_PAPER': 'zh_CN.UTF-8', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '192.168.1.4 6632 22', 'TERMCAP': 'SC|screen|VT 100/ANSI X3.64 virtual terminal:\\\n\t:DO=\\E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:\\\n\t:cd=\\E[J:ce=\\E[K:cl=\\E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:\\\n\t:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\E7:st=\\EH:up=\\EM:\\\n\t:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\E)0:\\\n\t:li#60:co#205:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:\\\n\t:cs=\\E[%i%d;%dr:dl=\\E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:\\\n\t:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\E[?1h\\E=:\\\n\t:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:\\\n\t:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:\\\n\t:se=\\E[23m:mb=\\E[5m:md=\\E[1m:mh=\\E[2m:mr=\\E[7m:\\\n\t:me=\\E[m:ms:\\\n\t:Co#8:pa#64:AF=\\E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:\\\n\t:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:\\\n\t:ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:\\\n\t:po=\\E[5i:pf=\\E[4i:Km=\\E[M:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:\\\n\t:k3=\\EOR:k4=\\EOS:k5=\\E[15~:k6=\\E[17~:k7=\\E[18~:\\\n\t:k8=\\E[19~:k9=\\E[20~:k;=\\E[21~:F1=\\E[23~:F2=\\E[24~:\\\n\t:F3=\\E[1;2P:F4=\\E[1;2Q:F5=\\E[1;2R:F6=\\E[1;2S:\\\n\t:F7=\\E[15;2~:F8=\\E[17;2~:F9=\\E[18;2~:FA=\\E[19;2~:kb=\x7f:\\\n\t:K2=\\EOE:kB=\\E[Z:kF=\\E[1;2B:kR=\\E[1;2A:*4=\\E[3;2~:\\\n\t:*7=\\E[1;2F:#2=\\E[1;2H:#3=\\E[2;2~:#4=\\E[1;2D:%c=\\E[6;2~:\\\n\t:%e=\\E[5;2~:%i=\\E[1;2C:kh=\\E[1~:@1=\\E[1~:kH=\\E[4~:\\\n\t:@7=\\E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:kD=\\E[3~:ku=\\EOA:\\\n\t:kd=\\EOB:kr=\\EOC:kl=\\EOD:km:', 'USER': 'book', 'TERM': 'screen', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'SSH_TTY': '/dev/pts/0', 'DISPLAY': 'localhost:10.0', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_ID': '33', 'SHLVL': '2', 'LC_MONETARY': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ARCH': 'arm', 'PATH': '/home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/scripts:/home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/bitbake/bin:/home/book/bin:/home/book/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/book/100ask_imx6ull-sdk/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin:/home/book/100ask_imx6ull-sdk/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'STY': '83366.pts-0.book-virtual-machine'}, ['/home/book/100ask_imx6ull-sdk/Yocto_rocko/sources/poky/bitbake/bin/bitbake', '100ask-image-qt5-validation-imx', '-D', '-v']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 10, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['100ask-image-qt5-validation-imx'], 'build']
+Connecting Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
