@@ -127,7 +127,6 @@ SIGGEN_EXCLUDE_SAFE_RECIPE_DEPS_append = " \
     libimxvpuapi->imx-vpu \
     imx-vpuwrap->imx-vpu \
     imx-codec->imx-vpu \
-    imx-test->imx-vpu \
 "
 
 # Firmware

@@ -11,7 +11,7 @@ LOCALVERSION ?= ""
 SCMVERSION ?= "y"
 SRCBRANCH ?= ""
 
-SRC_URI = "git://git.dev.tencent.com/weidongshan/imx-linux4.9.88.git;protocol=https;branch=${SRCBRANCH} \
+SRC_URI = "git://e.coding.net/weidongshan/imx-linux4.9.88.git;protocol=https;branch=${SRCBRANCH} \
            file://defconfig \
 "
 S = "${WORKDIR}/git"

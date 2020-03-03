@@ -23,8 +23,21 @@ IMAGE_FEATURES += " \
     tools-debug \
     ssh-server-dropbear \
     hwcodecs \
+    procps \
+    ptpd \
+    linuxptp \
+    iw \
+    can-utils \
+    cpufrequtils \
+    nano \
+    ntpdate \
+    minicom \
+    coreutils \
+    mmc-utils \
+    udev-extraconf \
+    e2fsprogs-resize2fs \
     ${@bb.utils.contains('DISTRO_FEATURES', 'wayland', '', \
-       bb.utils.contains('DISTRO_FEATURES',     'x11', 'x11-base x11-sato', \
+    bb.utils.contains('DISTRO_FEATURES',     'x11', 'x11-base x11-sato', \
                                                        '', d), d)} \
 "
 ERPC_COMPS ?= ""
@@ -36,7 +49,6 @@ CORE_IMAGE_EXTRA_INSTALL += " \
     packagegroup-fsl-tools-audio \
     packagegroup-fsl-tools-gpu \
     packagegroup-fsl-tools-gpu-external \
-    packagegroup-fsl-tools-testapps \
     packagegroup-fsl-tools-benchmark \
     packagegroup-fsl-gstreamer1.0 \
     packagegroup-fsl-gstreamer1.0-full \

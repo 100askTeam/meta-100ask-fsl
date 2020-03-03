@@ -24,8 +24,8 @@ do_copy_defconfig () {
     if [ ${DO_CONFIG_V7_COPY} = "yes" ]; then
         # copy latest imx_v7_defconfig to use for mx6, mx6ul and mx7
         mkdir -p ${B}
-        cp ${S}/arch/arm/configs/100ask_imx6ull_defconfig ${B}/.config
-        cp ${S}/arch/arm/configs/100ask_imx6ull_defconfig  ${B}/../defconfig
+        cp ${S}/arch/arm/configs/imx6ull_yocto_defconfig ${B}/.config
+        cp ${S}/arch/arm/configs/imx6ull_yocto_defconfig  ${B}/../defconfig
     else
         # copy latest defconfig to use for mx8
         mkdir -p ${B}
