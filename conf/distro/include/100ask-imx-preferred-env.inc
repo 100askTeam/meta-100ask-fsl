@@ -1,5 +1,5 @@
 # Use i.MX Kernel, U-Boot and Gstreamer 1.0 providers
-PREFERRED_PROVIDER_virtual/bootloader_imx = "u-boot-imx"
+PREFERRED_PROVIDER_virtual/bootloader_imx = "u-boot-100ask"
 #PREFERRED_PROVIDER_virtual/bootloader_mx6 = "u-boot-imx"
 #PREFERRED_PROVIDER_virtual/bootloader_mx6ul = "u-boot-imx"
 #PREFERRED_PROVIDER_virtual/bootloader_mx6sll = "u-boot-imx"
